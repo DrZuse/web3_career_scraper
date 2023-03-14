@@ -1,0 +1,50 @@
+junior                   56
+legal                    57
+social media             61
+customer support         61
+devops                   71
+copywriting              73
+quality assurance        75
+product designer         80
+marketing manager        81
+recruiter                86
+intern                  111
+mobile                  115
+operations              129
+data science            130
+business development    141
+research                142
+web3js                  147
+golang                  151
+security                160
+backend                 161
+entry level             163
+java                    163
+community manager       164
+full stack              183
+node                    195
+front end               198
+computer science        212
+rust                    235
+crypto                  256
+lead                    259
+finance                 265
+smart contract          266
+analyst                 274
+design                  301
+product manager         346
+javascript              363
+sales                   370
+solana                  426
+marketing               456
+react                   561
+blockchain              569
+executive               622
+nft                     683
+senior                  936
+solidity                965
+ethereum               1122
+non tech               1569
+remote                 1723
+dev                    2102
+defi                   3280
