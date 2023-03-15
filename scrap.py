@@ -4,13 +4,17 @@ import requests
 from bs4 import BeautifulSoup
 
 badges_list = []
-total_jobs = 0
 
-for p in range(1, 153):
+total_jobs = 31765
+jobs_per_page = 35
+pages = total_jobs//jobs_per_page
 
-    URL = f'https://web3.career/defi-jobs?page={p}'
-    print(URL)
+for p in range(1, pages+1):
+
+    #URL = f'https://web3.career/defi-jobs?page={p}'
+    URL = f'https://web3.career/?page={p}'
     page = requests.get(URL)
+    print(f'{URL} - {page}')
 
     soup = BeautifulSoup(page.content, "html.parser")
     jobs = soup.findAll("tr", {"class": "table_row"})
