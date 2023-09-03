@@ -42,7 +42,6 @@ dict_with_badges = countOccurrence(badges_list)
 #print(pd.DataFrame([countOccurrence(badges_list)], index=1))
 
 print(pd.DataFrame.from_dict(dict_with_badges, orient='index', columns=['times']).sort_values('times').tail(50))
-print(total_jobs)
 
 with open('badges.csv', 'w') as f:
     for key in dict_with_badges.keys():
